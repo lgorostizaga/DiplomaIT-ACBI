@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Set up charset to be used on webpage-->
+    <meta charset="utf-8">
+    <!--Defines initial scale for viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Describes webpage content-->
+    <meta name="description" content="Luca’s Loaves webpage">
+    <!--Load bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <!--Load custom CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Webpage title to be displayed on browser tab-->
+    <title>Luca’s Loaves</title>
+    <!--Favicon Image to be displayed on browser tab-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!--Set up responsive container-->
+    <div class="container-md">
+    <!--Company logo-->
+    <div class="logo">
+      <img src="images/logo.png" class="logo-empresa mx-auto d-block" alt="luca's logo">
+    </div>
+    <!--Set up responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="shop.php">Shop Now!</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="careers.html">Careers</a>
+            <a class="nav-link active" aria-current="contact.html">Contact</a>
+            </div>
+          </div>    
+        </div>
+      </nav>
+    <!--Webpage Content-->
+    <div class="background">
+      <!--Location and map-->
+      <h1>Locate us</h1>
+      <div class="container contact">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <ul class="list-group-flush">
+              <li class="list-group-item">Address: 123 Pitt Street, Sydney NSW 2000.</li>
+              <li class="list-group-item">Telephone number: 9000 1234.</li>
+              <li class="list-group-item">Email address: info@lucasloaves.com.au </li>
+              <li class="list-group-item">Opening hours are: 7am to 4 pm (7 days a week).</li>
+            </ul>
+          </div>
+          <div class="container-fluid col-lg-4 col-md-4 col-sm-12 ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.891915633045!2d151.2061886151663!3d-33.866676280656876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae4044494d3d%3A0xe2584e2df16f2531!2s123%20Pitt%20St%2C%20Sydney%20NSW%202000!5e0!3m2!1ses!2sau!4v1623226157440!5m2!1ses!2sau" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+          </div>
+        </div>
+      </div>
+      <!--Get in touch content-->
+      <h1>Get in touch</h1>
+      <div class="container team">
+        <form class="row g-3">
+          <div class="col-lg-6 col-md-12">
+            <label for="inputName" class="form-label">Name</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <label for="inputEmail" class="form-label">Email Address</label>
+            <input type="text" class="form-control" id="inputEmail">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="4"></textarea>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" type="button">Submit Comment</button>
+          </div>
+        </form>
+      </div>
+
+
+    </div>
+    <!--Copyright Footer-->
+    <footer class="page-footer"> 
+      <div class="footer-copyright text-center">© 2021 Copyright: Luca's Loaves</div>
+    </footer>
+    <!--Closing tag for responsive container-->
+    </div>
+    
+    <!--Load Bootstrap's JS scripts-->
+    <script src="bootstrap-5/js/bootstrap.min.js"></script>
+    <!--Load jQuery-->
+    <script src="jquery-3.6.0.min.js"></script>
+    <!--Load custom js code-->
+    <script src="js/main.js"></script>
+</body>
+</html>
