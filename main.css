@@ -1,0 +1,118 @@
+.logo-empresa {
+    width: 200px;
+    height: auto;
+}
+.header {
+    background-image: url('../images/bakery.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+}   
+.navbar-collapse {
+    justify-content: flex-start;
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.description p {
+    color: #ccc;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.description a {
+    margin: 2%;
+}
+.features {
+    margin: 2em auto;
+    padding: 1em;
+    position: relative;
+}
+.background {
+    background: #dedec8;
+    padding: 4em 0;
+}
+.jobs{
+    margin: 3rem;
+}
+.background h1 {
+    color: #5e5e55;
+    padding: 3rem;
+}
+.background p {
+    color: #5e5e55;
+}
+.team p {
+    margin: 2rem;
+}
+.team {
+    color: #5e5e55;
+    padding: 3rem;
+}
+.team .card-columns {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+.team .card {
+    background:none;
+    border: none;
+    padding: 2rem;
+}
+.team .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+.page-footer {
+    background-color:#222;
+    color: #ccc;
+    padding: 10px;
+}
+.footer-copyright {
+    color: #ffe184;
+    font-size: 0.75rem;
+}
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 50%;
+        transform: none;
+        text-align: center;
+    }
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
+.contact img {
+    padding-right: 2rem;
+}
+.contact {
+    background-color:rgb(255, 255, 255);
+    padding-top: 2rem; 
+    padding-bottom: 2rem;
+    
+}

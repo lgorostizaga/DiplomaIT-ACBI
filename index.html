@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Set up charset to be used on webpage-->
+    <meta charset="utf-8">
+    <!--Defines initial scale for viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Describes webpage content-->
+    <meta name="description" content="Luca’s Loaves webpage">
+    <!--Load bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <!--Load custom CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Webpage title to be displayed on browser tab-->
+    <title>Luca’s Loaves</title>
+    <!--Favicon Image to be displayed on browser tab-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!--Set up responsive container-->
+    <div class="container-md">
+    <!--Company logo-->
+    <div class="logo">
+      <img src="images/logo.png" class="logo-empresa mx-auto d-block" alt="luca's logo">
+    </div>
+    <!--Set up responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page">Home</a>
+            <a class="nav-link" href="shop.php">Shop Now!</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="careers.html">Careers</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>    
+        </div>
+      </nav>
+    <!--Header-->
+    <header class="page-header header container-fluid">
+      <!--Webpage Content-->
+      <div class="overlay"></div>
+      <div class="description">
+        <p>We make real bread from the best organic ingredients – by hand, with dedication and with the best of care. </p>
+        <a class="btn btn-light" href="shop.php" role="button">Shop Online Now!</a>  
+      </div> 
+    </header>
+    <!--Loaves features-->
+    <div class="container features">
+      <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="images/pan1.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="images/pan2.jpg" class="img-fluid">
+          </div>
+          <div class="lista col-lg-4 col-md-12 col-sm-12">
+            <ul class="list-group-flush">
+              <li class="list-group-item">It has no commercial yeast</li>
+              <li class="list-group-item">Hand kneaded and shaped in-house</li>
+              <li class="list-group-item">Prepared over 14-17hrs</li>
+              <li class="list-group-item">Organic flour and filtered water</li>
+              <li class="list-group-item">Low gluter content</li>
+              <li class="list-group-item">Shop powered via solar energy</li>
+            </ul>
+          </div>
+      </div>
+  </div>
+    <!--Copyright Footer-->
+    <footer class="page-footer"> 
+      <div class="footer-copyright text-center">© 2021 Copyright: Luca's Loaves</div>
+    </footer>
+    <!--Closing tag for responsive container-->
+    </div>
+    <!--Load Bootstrap's JS scripts-->
+    <script src="bootstrap-5/js/bootstrap.min.js"></script>
+    <!--Load jQuery-->
+    <script src="jquery-3.6.0.min.js"></script>
+    <!--Load custom js code-->
+    <script src="js/main.js"></script>
+</body>
+</html>
